@@ -81,4 +81,4 @@ python scripts/build_source_archive.py
 
 The source archive uses tracked files only and excludes run outputs, model weights, credentials, the PDF, and the archive itself. Rebuild it after any source change. Check publication/SHA256SUMS against the uploaded files.
 
-Code, configuration, scripts, and tests use [MIT](LICENSE). Manuscript, benchmark data, ontology specifications, and prose documentation use [CC BY 4.0](LICENSE-DOCUMENTATION.md). Third-party papers and model weights retain their own licenses.
+Code, configuration, scripts, and tests use [MIT](LICENSE-CODE). Manuscript, benchmark data, ontology specifications, and prose documentation use [CC BY 4.0](LICENSE). Third-party papers and model weights retain their own licenses.

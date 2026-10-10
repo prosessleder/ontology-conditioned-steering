@@ -4,6 +4,8 @@
 Research protocol preprint, version 0.1.0 - 9 October 2026  
 Repository: https://github.com/prosessleder/ontology-conditioned-steering
 
+**License: CC BY 4.0.** Copyright 2026 Tim O'Brien. [License terms](https://creativecommons.org/licenses/by/4.0/).
+
 ## Abstract
 
 A language model operating inside a specified conceptual world may substitute familiar but incompatible mechanisms for the rules in its context. We propose a controlled experiment testing whether contrastive residual activation addition improves operational consistency with an explicit causal ontology beyond a strong structured prompt. The benchmark, the Seven Laws of Magic, contains class-restricted actions, nonrenewable resources, conserved object identity, and bounded transformations. Two ontology versions introduce a narrow local rewind capability without permitting general time travel. A symbolic simulator distinguishes unknown concepts, prohibited transformations, and permitted operations whose preconditions may nevertheless be unsatisfied. Separately learned version-specific directions are evaluated against identical prompt-only, stale-vector, zero-intervention, and norm-matched random controls. The protocol measures executable goal completion, classification accuracy, inappropriate action use, and over-suppression of newly valid temporal plans. Prior work already establishes activation steering, conditional control, knowledge-graph-grounded abstention, and mitigation of reasoning content biases. The candidate contribution is therefore a reproducible causal-ontology version-transition protocol rather than a new steering algorithm. This release provides a manuscript, ontology specification, benchmark generator, evaluator, and intervention implementation. Model-performance experiments remain pending; no steering benefit, guaranteed containment, or empirical novelty is claimed.
@@ -159,7 +161,7 @@ The repository includes ontology versions, generator, symbolic evaluator, steeri
 
 AI assistance was used to search and organize literature, draft text, and implement software. The named human author remains responsible for reviewing sources, validating claims, resolving authorship and licensing, and approving any publication. The author name follows the authenticated GitHub profile; affiliation and ORCID are intentionally unspecified pending author confirmation.
 
-Code is distributed under MIT; manuscript and documentation under CC BY 4.0. No funding source, ethics approval, competing-interest declaration, peer review, or institutional affiliation is fabricated. This document is a research-protocol preprint and should be deposited with that status clearly stated.
+This paper, its manuscript source and PDF, documentation, and benchmark data are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). The full license is in LICENSE. Code is distributed under MIT in LICENSE-CODE. No funding source, ethics approval, competing-interest declaration, peer review, or institutional affiliation is fabricated. This document is a research-protocol preprint and should be deposited with that status clearly stated.
 
 ## References
 
