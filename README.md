@@ -12,10 +12,11 @@ A research-protocol preprint and reproducible pilot for one question: can residu
 - [Typeset manuscript PDF](output/pdf/controlling-incompatible-magic.pdf)
 - [Zenodo source archive](publication/ontology-conditioned-steering-v0.1.0-source.zip)
 - [Upload instructions](publication/zenodo-upload.md) and [checksums](publication/SHA256SUMS)
+- [Manuscript editorial notes](publication/editorial-notes.md)
 - [Adversarial literature review](research/related-work.md), [independent internal review](research/adversarial-review.md), [search audit](research/search-log.md), and [references](references.md)
 - [Hypotheses](research/hypotheses.md), [protocol](experiment/protocol.md), and [validation record](research/validation.md)
 
-The package is suitable for author review and deposition as a **research protocol preprint**. No Zenodo record or DOI has been created. Author name currently follows the authenticated GitHub profile, Tim O'Brien; confirm attribution, affiliation, ORCID, and licenses before depositing.
+The package is suitable for author review and deposition as a **research protocol preprint**. No Zenodo record or DOI has been created. Author name currently follows the authenticated GitHub profile, Tim O'Brien; confirm attribution, affiliation, and ORCID before depositing. The manuscript license is CC BY 4.0.
 
 ## Experimental world
 

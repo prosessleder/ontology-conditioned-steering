@@ -14,13 +14,13 @@ The design now makes its primary causal comparison interpretable: C+V and C rece
 |---|---|---|
 | Broad invention or first ontology-steering framing | Existing CAA, conditional control, reasoning content effects, structured KG interventions, ontology-vector proposals, and mental-space routing are cited; contribution narrowed. | Manuscript §2; related-work audit; primary records. |
 | Unknown confused with prohibited | `rewind_local` and `anchor` are unknown in V1; narrowly permitted in V2. General `time_travel` is prohibited in both. | Both specifications and `concept_status`. |
-| Classification or empty refusal could masquerade as plan success | Primary `operational_success` requires correct status, adherence, and goal-reaching execution for feasible cases. | Evaluator, selection default, paper §5.4. |
-| Unequal version training support | Primary extraction defaults to 48 common-support pairs, 24/version, with identical response and corruption text across version twins. The 60-pair pool is explicitly exploratory. | Generator, collection runner default, paper §5.1, protocol. |
+| Classification or empty refusal could masquerade as plan success | Primary `operational_success` requires correct status, adherence, and goal-reaching execution for feasible cases. | Evaluator, selection default, paper §3.6. |
+| Unequal version training support | Primary extraction defaults to 48 common-support pairs, 24/version, with identical response and corruption text across version twins. The 60-pair pool is explicitly exploratory. | Generator, collection runner default, paper §3.3, protocol. |
 | Operation-token-only training contrasts | Four equally represented negative types now include prohibited operations, unknown operations, wrong actor class with the same operation, and reversed action order. | Updated generator and pair audit. |
 | Temporal infeasibility only reflected energy | V2 now includes energy, mass-cap, living-target, and missing-keeper cases, nine each across the full dataset. | Generator certificates and dataset diagnostics. |
 | Stale/current differences could be caused by scale | Stale/current V2 comparison uses common selected layer, alpha, and V2 activation scale. | Runtime and protocol. |
 | Variant or sampling counts could inflate independence | Family is the analysis unit; only three test clusters and one test temporal family are disclosed. | Generator, analysis, paper. |
-| Fabricated model results | Results section explicitly pending; software checks are distinguished from performance measurements. | Manuscript §6 and release status. |
+| Fabricated model results | Study status explicitly identifies pending model experiments; software checks are distinguished from performance measurements. | Manuscript §3.7 and release status. |
 | Unverified source identity or venue | SPIKE remains an anonymous indexed submission with access/status uncertainty; WorldSense author and CAA identifier corrected against primary records. | Citation inventory and search log. |
 | Intervention operations conflated | Addition is separated from projection, erasure, SAE suppression, logit control, output filtering, and weight editing. | Paper and protocol methods. |
 

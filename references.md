@@ -1,6 +1,6 @@
 # References
 
-Review cutoff: **9 October 2026 (America/Los_Angeles)**. IDs match the manuscript and literature audit. Primary sources were inspected as described in [the search log](research/search-log.md). Publication metadata and first-preprint dates differ; a preprint is not evidence of peer review. R32 has an explicitly unresolved author/status record. R30 and R36 have weaker date verification than the archival papers. No measurements from these studies are results of this repository.
+Review cutoff: **9 October 2026 (America/Los_Angeles)**. Stable R identifiers are used in the literature audit; the manuscript uses numbered citations. Primary sources were inspected as described in [the search log](research/search-log.md). Publication metadata and first-preprint dates differ; a preprint is not evidence of peer review. R32 has an explicitly unresolved author/status record. R30 and R36 have weaker date verification than the archival papers. No measurements from these studies are results of this repository.
 
 ## [R01] CounterSteer: Suppressing Indirect Prompt Injection with Activation Steering
 
