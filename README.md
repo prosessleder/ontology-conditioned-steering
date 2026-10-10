@@ -16,6 +16,10 @@ A research-protocol preprint and reproducible pilot for one question: can residu
 
 Author: Tim O'Brien, [ORCID 0009-0001-2589-347X](https://orcid.org/0009-0001-2589-347X), with no affiliation. The manuscript is licensed under CC BY 4.0. Deposition metadata is provided in [.zenodo.json](.zenodo.json); no Zenodo record or DOI has been created.
 
+## Repository scope
+
+This public repository contains the manuscript and materials needed to understand or reproduce the paper. Research planning, internal discussion, and initial implementations are maintained in the [private companion repository](https://github.com/prosessleder/ontology-conditioned-steering-internal), which requires authorized access. Selected paper-related changes are promoted into this publication package.
+
 ## Experimental world
 
 The Seven Laws of Magic define finite energy, class-bound operations, material conservation, bounded heat and local transformation. [V1](experiment/ontology-v1.md) leaves local rewind undefined. [V2](experiment/ontology-v2.md) introduces a tightly bounded anchor-and-rewind operation. General time travel remains explicitly prohibited in both.
