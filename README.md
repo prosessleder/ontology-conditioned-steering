@@ -4,19 +4,17 @@
 
 A research-protocol preprint and reproducible pilot for one question: can residual activation steering improve a small language model's reasoning within a formal world, and remain useful when that world changes?
 
-**Status:** model-performance experiments are pending. The code, simulator, and hook tests are executable; they do not establish that steering improves reasoning. The adversarial literature review rejects broad originality claims. The candidate contribution is a controlled ontology-version transition evaluation, with explicit unknown concepts and over-suppression measures.
+**Status:** research-protocol preprint; not peer reviewed. Model-performance experiments are pending. The code, simulator, and hook tests are executable. The protocol studies controlled ontology-version transitions, explicit unknown concepts, and over-suppression.
 
-## Manuscript and upload package
+## Manuscript and reproducibility package
 
-- [Manuscript source](paper.md)
+- [LaTeX manuscript source](paper.tex) and [readable manuscript](paper.md)
 - [Typeset manuscript PDF](output/pdf/controlling-incompatible-magic.pdf)
-- [Zenodo source archive](publication/ontology-conditioned-steering-v0.1.0-source.zip)
-- [Upload instructions](publication/zenodo-upload.md) and [checksums](publication/SHA256SUMS)
-- [Manuscript editorial notes](publication/editorial-notes.md)
-- [Adversarial literature review](research/related-work.md), [independent internal review](research/adversarial-review.md), [search audit](research/search-log.md), and [references](references.md)
-- [Hypotheses](research/hypotheses.md), [protocol](experiment/protocol.md), and [validation record](research/validation.md)
+- [Source archive](publication/ontology-conditioned-steering-v0.1.0-source.zip) and [checksums](publication/SHA256SUMS)
+- [Bibliography](references.bib)
+- [Hypotheses](research/hypotheses.md) and [experimental protocol](experiment/protocol.md)
 
-The package is suitable for author review and deposition as a **research protocol preprint**. No Zenodo record or DOI has been created. Author name currently follows the authenticated GitHub profile, Tim O'Brien; confirm attribution, affiliation, and ORCID before depositing. The manuscript license is CC BY 4.0.
+Author: Tim O'Brien, [ORCID 0009-0001-2589-347X](https://orcid.org/0009-0001-2589-347X), with no affiliation. The manuscript is licensed under CC BY 4.0. Deposition metadata is provided in [.zenodo.json](.zenodo.json); no Zenodo record or DOI has been created.
 
 ## Experimental world
 
@@ -71,10 +69,11 @@ The primary comparison is the exact structured C prompt with versus without a cu
 
 ## Build the publication files
 
-ReportLab is required for PDF generation; Poppler is used for visual verification. A bundled Codex runtime was used to build and inspect the release PDF.
+The canonical manuscript is `paper.tex`, using Elsevier's standard `elsarticle` single-column preprint class with numbered citations. The source is self-contained, including its bibliography. The class and supporting packages are supplied by TeX Live or another LaTeX distribution. Template use does not imply submission to an Elsevier journal. `paper.md` is a readable companion and should be synchronized when the manuscript changes.
+
+Open `paper.tex` in a LaTeX editor for source editing and preview, or export the publication PDF with Python 3 and an installed `pdflatex`. The build helper runs LaTeX until references are resolved and writes the PDF to `output/pdf/controlling-incompatible-magic.pdf`.
 
 ```bash
-python -m pip install reportlab
 python scripts/build_pdf.py
 git add .
 python scripts/build_source_archive.py

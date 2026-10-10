@@ -5,7 +5,8 @@
   "description": "Language models operating within a specified conceptual world may substitute familiar mechanisms for those permitted by the supplied rules. This research protocol investigates whether contrastive activation steering improves operational consistency with a causal ontology beyond structured prompting, and whether an intervention remains useful when the ontology changes. We define a synthetic fantasy world with class-restricted actions, finite energy, conserved object identity, and bounded transformations. Two versions differ in the availability of a narrowly constrained local rewind operation. A deterministic benchmark contains 720 cases across nine scenario families and distinguishes permitted but infeasible actions from prohibited and undefined capabilities. Version-specific steering directions will be estimated from matched training responses and evaluated against identical prompt-only, stale-direction, zero-coefficient, and norm-matched random controls. The primary outcome combines correct classification with legal goal-reaching execution; secondary outcomes measure task performance, unknown-concept recognition, and suppression of newly valid temporal plans. Hyperparameters will be selected on development data and fixed before held-out evaluation. The pilot has only three independent test families, so its uncertainty estimates will be exploratory. Model-performance experiments have not yet been conducted. The protocol provides a controlled test of the benefits and limitations of activation steering under changing causal rules, without assuming that improved output consistency implies removal of internal concepts.",
   "creators": [
     {
-      "name": "O'Brien, Tim"
+      "name": "O'Brien, Tim",
+      "orcid": "0009-0001-2589-347X"
     }
   ],
   "version": "0.1.0",
@@ -25,5 +26,5 @@
       "scheme": "url"
     }
   ],
-  "notes": "Prospective protocol; experimental results pending. Author name is based on the authenticated GitHub profile and should be confirmed before deposition. Affiliation and ORCID have not been supplied. The paper is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0); the full text is in LICENSE. Code uses MIT in LICENSE-CODE."
+  "notes": "Research protocol preprint, version 0.1.0; not peer reviewed. Pretrained-model experiments and their results are pending. The manuscript, ontology specifications, benchmark data, and prose documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Code, configuration, scripts, and tests use MIT in LICENSE-CODE."
 }

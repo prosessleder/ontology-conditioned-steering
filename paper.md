@@ -1,7 +1,12 @@
 # Controlling Incompatible Magic: Ontology-Conditioned Activation Steering in a Fantasy Landscape
 
-**Tim O'Brien**  
-Research protocol - 9 October 2026
+**Tim O'Brien**
+
+ORCID: [0009-0001-2589-347X](https://orcid.org/0009-0001-2589-347X)
+
+Research protocol preprint - Version 0.1.0 - 9 October 2026
+
+Not peer reviewed
 
 **License: CC BY 4.0.** Copyright 2026 Tim O'Brien. [License terms](https://creativecommons.org/licenses/by/4.0/).
 
@@ -85,7 +90,7 @@ The initial model is Qwen2.5-1.5B-Instruct, pinned to revision 989aa7980e4cf806f
 
     d(v,l) = (1/n_v) sum_i [h_i^+(v,l) - h_i^-(v,l)]
     u(v,l) = d(v,l) / ||d(v,l)||_2
-    s(v,l) = (1/2n_v) sum_i [||h_i^+(v,l)||_2 + ||h_i^-(v,l)||_2]
+    s(v,l) = (1/(2n_v)) sum_i [||h_i^+(v,l)||_2 + ||h_i^-(v,l)||_2]
     h' = h + alpha s(v,l) u(v,l)
 
 Zero or nonfinite directions are rejected. The training activation scale s makes the magnitude of the added vector proportional to the mean endpoint norm. The direction is added at the last prompt position during prefill and at the current token during cached decoding; other prompt positions are unchanged. The ontology version selects a separately estimated direction.

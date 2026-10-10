@@ -5,11 +5,12 @@ title: "Controlling Incompatible Magic: Ontology-Conditioned Activation Steering
 authors:
   - family-names: "O'Brien"
     given-names: "Tim"
+    orcid: "https://orcid.org/0009-0001-2589-347X"
 version: 0.1.0
 date-released: 2026-10-09
 repository-code: "https://github.com/prosessleder/ontology-conditioned-steering"
 url: "https://github.com/prosessleder/ontology-conditioned-steering"
-license: CC-BY-4.0
+license: MIT
 abstract: "Research protocol, versioned causal ontology benchmark, and activation-steering implementation. Model-performance results are pending. The paper and documentation use CC BY 4.0; code uses MIT in LICENSE-CODE."
 preferred-citation:
   type: article
@@ -19,6 +20,7 @@ preferred-citation:
   authors:
     - family-names: "O'Brien"
       given-names: "Tim"
+      orcid: "https://orcid.org/0009-0001-2589-347X"
   year: 2026
   url: "https://github.com/prosessleder/ontology-conditioned-steering"
   notes: "Research protocol preprint, version 0.1.0; licensed under CC BY 4.0. Model-performance results are pending."
