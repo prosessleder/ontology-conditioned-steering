@@ -1,0 +1,72 @@
+{
+  "adaptation_status_counts": {
+    "feasible": 36,
+    "infeasible": 36,
+    "unknown": 72
+  },
+  "common_pairs": 48,
+  "core_status_counts": {
+    "feasible": 144,
+    "infeasible": 144,
+    "prohibited": 144,
+    "unknown": 144
+  },
+  "families": {
+    "heat_shape": {
+      "slice": "core",
+      "split": "train"
+    },
+    "mixed_delivery": {
+      "slice": "core",
+      "split": "test"
+    },
+    "rewind_heat": {
+      "slice": "adaptation",
+      "split": "train"
+    },
+    "rewind_heat_shape": {
+      "slice": "adaptation",
+      "split": "test"
+    },
+    "rewind_shape": {
+      "slice": "adaptation",
+      "split": "dev"
+    },
+    "shape_then_cool": {
+      "slice": "core",
+      "split": "dev"
+    },
+    "transport_then_reseal": {
+      "slice": "core",
+      "split": "test"
+    },
+    "two_hop_transport": {
+      "slice": "core",
+      "split": "dev"
+    },
+    "warm_transport": {
+      "slice": "core",
+      "split": "train"
+    }
+  },
+  "file_sha256": {
+    "dev.jsonl": "55319ad7ced89c8842f18c47ff6430097fd6376d84270a670c942dbf53bfd332",
+    "pairs-common.jsonl": "f45d4b053379ee4eb18a8ade0a22319cce908eb5aadc37788007900ced2462a3",
+    "pairs.jsonl": "6a5f724a0963ae3fed8eb3f5adc6eb0c4ce8dd68da052a82298a55b13eb0b5f4",
+    "test.jsonl": "fc0d51924aff1a42049dc5c2aa1a892f0e520691ba8af5e4355776efad7db18e",
+    "train.jsonl": "25c3d3d2402bf3906c130d867b5935f71ab4da55fa41de3dcbbb866389ea8a5a"
+  },
+  "generator_sha256": "321a9ded478901c31c6989f7b20a16222e2467f2114af8d6db0e948479327bde",
+  "kind": "deterministic benchmark generation, not model results",
+  "pairs": 60,
+  "per_family": 12,
+  "release": "0.1.0",
+  "seed": 1729,
+  "split_counts": {
+    "dev": 240,
+    "test": 240,
+    "train": 240
+  },
+  "total_cases": 720,
+  "world_sha256": "c680c430465e46c39e8605050045858547c6dd36d35d199958e3d5e4fec7861e"
+}

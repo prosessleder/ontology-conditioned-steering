@@ -1,0 +1,28 @@
+{
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "device": "mps",
+  "dtype": "float16",
+  "layers": [
+    6,
+    13,
+    20
+  ],
+  "alphas": [
+    0,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "max_context_tokens": 4096,
+  "max_new_tokens": 384,
+  "do_sample": false,
+  "temperature": 0.7,
+  "seeds": [
+    11
+  ],
+  "random_vector_seed": 271828,
+  "dataset_seed": 1729,
+  "noninferiority_margin": 0.05
+}

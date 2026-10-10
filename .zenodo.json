@@ -1,0 +1,12 @@
+{
+  "title": "Controlling Incompatible Magic: Ontology-Conditioned Activation Steering in a Fantasy Landscape",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Research protocol preprint (v0.1.0). A prospective experiment on contrastive activation steering for a versioned causal fantasy ontology. Includes a symbolic benchmark, executable evaluator, steering implementation, adversarial related-work audit, and analysis plan. No model-performance results are reported. The novelty claim is limited to the candidate version-transition evaluation protocol, not activation steering itself. Code uses MIT; manuscript, documentation, and benchmark data use CC BY 4.0.",
+  "creators": [{"name": "O'Brien, Tim"}],
+  "version": "0.1.0",
+  "license": "cc-by-4.0",
+  "keywords": ["activation steering", "ontology", "causal reasoning", "ontology evolution", "research protocol", "conceptual interference"],
+  "related_identifiers": [{"identifier": "https://github.com/prosessleder/ontology-conditioned-steering", "relation": "isSupplementedBy", "scheme": "url"}],
+  "notes": "Prospective protocol; experimental results pending. Author name is based on the authenticated GitHub profile and should be confirmed before deposition. Affiliation and ORCID have not been supplied."
+}
